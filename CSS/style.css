@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+    color: rgb(230, 40, 40);
+    text-size-adjust: 20;
+}
+
+li{
+    text-decoration: none;
+}
 
 .navbar ul{
     display: flex;
@@ -11,5 +20,32 @@
     color: white;
     padding: 10px 20px;
     height: 60px;
-   text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.shop p{
+    font-size: 200%;
+    margin-left: 80px;
+}
+
+.shop button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 40, 40);
+    margin-left: 80px;
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.shop button:hover{
+    background-color: rgb(246, 106, 106);
+    color: rgb(237, 237, 237);
+}
+
+.shop{
+    margin-left: 80px;
+    display: flex;
 }
